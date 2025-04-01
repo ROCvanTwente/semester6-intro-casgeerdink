@@ -1,0 +1,13 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h2>Overzicht van alle dieren</h2>
+    <ul>
+        @foreach (var dier in ViewBag.DierenLijst)
+        {
+        <li>@dier</li>
+        }
+    </ul>
+</div>

@@ -1,0 +1,61 @@
+@model List<S6_CSHARP_04_Lib.Interfaces.IAnimal>
+
+<h2>Overzicht van alle dieren</h2>
+
+<!-- Nieuw dier toevoegen -->
+<h3>Nieuw dier toevoegen</h3>
+<form method="post" action="@Url.Action("Toevoegen", "Dier")">
+    <input type="text" name="name" placeholder="Naam van het dier" required />
+    <select name="soort">
+        <option value="Hond">Hond</option>
+        <option value="Kip">Kip</option>
+        <option value="Varken">Varken</option>
+        <option value="Kat">Kat</option>
+        <option value="Paard">Paard</option>
+    </select>
+    <button type="submit">Toevoegen</button>
+</form>
+
+<hr>
+
+<ul>
+    @foreach (var dier in Model)
+    {
+        <li>
+            <!-- Dier naam (hover: positie weergeven, klik: geluid afspelen) -->
+            <span onmouseover="toonPositie('@dier.Name', '@dier.Position.X', '@dier.Position.Y')"
+                  onclick="document.getElementById('geluid-form-@dier.Name').submit()"
+                  style="cursor:pointer; text-decoration:underline; color:blue;">
+                @dier.Name (@dier.GetType().Name)
+            </span>
+
+            <!-- Formulier voor geluid afspelen -->
+            <form id="geluid-form-@dier.Name" method="post" action="@Url.Action("MaakGeluid", "Dier")" style="display:none;">
+                <input type="hidden" name="name" value="@dier.Name" />
+            </form>
+
+            <!-- Formulier voor verplaatsen -->
+            <form method="post" action="@Url.Action("Verplaats", "Dier")">
+                <input type="hidden" name="name" value="@dier.Name" />
+                
+                <select name="direction">
+                    <option value="Up">Omhoog</option>
+                    <option value="Down">Omlaag</option>
+                    <option value="Left">Links</option>
+                    <option value="Right">Rechts</option>
+                </select>
+                
+                <input type="number" name="stappen" value="10" min="1" />
+                <button type="submit">Verplaats</button>
+            </form>
+        </li>
+    }
+</ul>
+
+<p id="positieInfo"></p>
+
+<script>
+    function toonPositie(naam, x, y) {
+        document.getElementById("positieInfo").innerText = naam + " - Positie: X:" + x + " Y:" + y;
+    }
+</script>
