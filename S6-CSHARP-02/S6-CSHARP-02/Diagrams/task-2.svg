@@ -1,0 +1,129 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css"
+     data-diagram-type="CLASS" height="410px" preserveAspectRatio="none"
+     style="width:607px;height:410px;background:#FFFFFF;" version="1.1" viewBox="0 0 607 410" width="607px"
+     zoomAndPan="magnify">
+    <defs/>
+    <g><!--cluster S6_CSHARP_02-->
+        <g id="cluster_S6_CSHARP_02">
+            <path d="M8.5,6 L126.7568,6 A3.75,3.75 0 0 1 129.2568,8.5 L136.2568,28.2969 L597.5,28.2969 A2.5,2.5 0 0 1 600,30.7969 L600,400.5 A2.5,2.5 0 0 1 597.5,403 L8.5,403 A2.5,2.5 0 0 1 6,400.5 L6,8.5 A2.5,2.5 0 0 1 8.5,6 "
+                  fill="transparent" style="stroke:#000000;stroke-width:1.5;"/>
+            <line style="stroke:#000000;stroke-width:1.5;" x1="6" x2="136.2568" y1="28.2969" y2="28.2969"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing"
+                  textLength="117.2568" x="10" y="20.9951">S6_CSHARP_02
+            </text>
+        </g><!--cluster Interfaces-->
+        <g id="cluster_Interfaces">
+            <path d="M169.5,49 L250.4326,49 A3.75,3.75 0 0 1 252.9326,51.5 L259.9326,71.2969 L418.5,71.2969 A2.5,2.5 0 0 1 421,73.7969 L421,194.5 A2.5,2.5 0 0 1 418.5,197 L169.5,197 A2.5,2.5 0 0 1 167,194.5 L167,51.5 A2.5,2.5 0 0 1 169.5,49 "
+                  fill="transparent" style="stroke:#000000;stroke-width:1.5;"/>
+            <line style="stroke:#000000;stroke-width:1.5;" x1="167" x2="259.9326" y1="71.2969" y2="71.2969"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing"
+                  textLength="79.9326" x="171" y="63.9951">Interfaces
+            </text>
+        </g><!--class Circle-->
+        <g id="elem_Circle">
+            <rect codeLine="10" fill="#F1F1F1" height="129.4844" id="Circle" rx="2.5" ry="2.5"
+                  style="stroke:#181818;stroke-width:0.5;" width="223.2852" x="21.5" y="249.5"/>
+            <ellipse cx="109.082" cy="265.5" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1;"/>
+            <path d="M112.0508,271.1406 Q111.4727,271.4375 110.832,271.5781 Q110.1914,271.7344 109.4883,271.7344 Q106.9883,271.7344 105.6602,270.0938 Q104.3477,268.4375 104.3477,265.3125 Q104.3477,262.1875 105.6602,260.5313 Q106.9883,258.875 109.4883,258.875 Q110.1914,258.875 110.832,259.0313 Q111.4883,259.1875 112.0508,259.4844 L112.0508,262.2031 Q111.4258,261.625 110.832,261.3594 Q110.2383,261.0781 109.6133,261.0781 Q108.2695,261.0781 107.582,262.1563 Q106.8945,263.2188 106.8945,265.3125 Q106.8945,267.4063 107.582,268.4844 Q108.2695,269.5469 109.6133,269.5469 Q110.2383,269.5469 110.832,269.2813 Q111.4258,269 112.0508,268.4219 L112.0508,271.1406 Z "
+                  fill="#000000"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="39.6211"
+                  x="129.582" y="270.3467">Circle
+            </text>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="22.5" x2="243.7852" y1="281.5" y2="281.5"/>
+            <ellipse cx="32.5" cy="295.1484" fill="transparent" rx="3" ry="3" style="stroke:#038048;stroke-width:1;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="99.415"
+                  x="41.5" y="298.4951">double Radius
+            </text>
+            <ellipse cx="32.5" cy="311.4453" fill="transparent" rx="3" ry="3" style="stroke:#038048;stroke-width:1;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="84.6904"
+                  x="41.5" y="314.792">double Area
+            </text>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="22.5" x2="243.7852" y1="322.0938" y2="322.0938"/>
+            <ellipse cx="32.5" cy="335.7422" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="145.9883"
+                  x="41.5" y="339.0889">Circle(double radius)
+            </text>
+            <ellipse cx="32.5" cy="352.0391" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="197.2852"
+                  x="41.5" y="355.3857">double CalculatePerimeter()
+            </text>
+            <ellipse cx="32.5" cy="368.3359" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="183.668"
+                  x="41.5" y="371.6826">void Resize(double factor)
+            </text>
+        </g><!--class Rectangle-->
+        <g id="elem_Rectangle">
+            <rect codeLine="18" fill="#F1F1F1" height="145.7813" id="Rectangle" rx="2.5" ry="2.5"
+                  style="stroke:#181818;stroke-width:0.5;" width="303.7373" x="280" y="241"/>
+            <ellipse cx="392.4341" cy="257" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1;"/>
+            <path d="M395.4028,262.6406 Q394.8247,262.9375 394.1841,263.0781 Q393.5435,263.2344 392.8403,263.2344 Q390.3403,263.2344 389.0122,261.5938 Q387.6997,259.9375 387.6997,256.8125 Q387.6997,253.6875 389.0122,252.0313 Q390.3403,250.375 392.8403,250.375 Q393.5435,250.375 394.1841,250.5313 Q394.8403,250.6875 395.4028,250.9844 L395.4028,253.7031 Q394.7778,253.125 394.1841,252.8594 Q393.5903,252.5781 392.9653,252.5781 Q391.6216,252.5781 390.9341,253.6563 Q390.2466,254.7188 390.2466,256.8125 Q390.2466,258.9063 390.9341,259.9844 Q391.6216,261.0469 392.9653,261.0469 Q393.5903,261.0469 394.1841,260.7813 Q394.7778,260.5 395.4028,259.9219 L395.4028,262.6406 Z "
+                  fill="#000000"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="70.3691"
+                  x="412.9341" y="261.8467">Rectangle
+            </text>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="281" x2="582.7373" y1="273" y2="273"/>
+            <ellipse cx="291" cy="286.6484" fill="transparent" rx="3" ry="3" style="stroke:#038048;stroke-width:1;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="93.1465"
+                  x="300" y="289.9951">double Width
+            </text>
+            <ellipse cx="291" cy="302.9453" fill="transparent" rx="3" ry="3" style="stroke:#038048;stroke-width:1;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="98.4443"
+                  x="300" y="306.292">double Height
+            </text>
+            <ellipse cx="291" cy="319.2422" fill="transparent" rx="3" ry="3" style="stroke:#038048;stroke-width:1;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="84.6904"
+                  x="300" y="322.5889">double Area
+            </text>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="281" x2="582.7373" y1="329.8906" y2="329.8906"/>
+            <ellipse cx="291" cy="343.5391" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="277.7373"
+                  x="300" y="346.8857">Rectangle(double width, double height)
+            </text>
+            <ellipse cx="291" cy="359.8359" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="197.2852"
+                  x="300" y="363.1826">double CalculatePerimeter()
+            </text>
+            <ellipse cx="291" cy="376.1328" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="183.668"
+                  x="300" y="379.4795">void Resize(double factor)
+            </text>
+        </g><!--class IShape-->
+        <g id="elem_IShape">
+            <rect codeLine="2" fill="#F1F1F1" height="96.8906" id="IShape" rx="2.5" ry="2.5"
+                  style="stroke:#181818;stroke-width:0.5;" width="223.2852" x="182.5" y="84"/>
+            <ellipse cx="265.9087" cy="100" fill="#B4A7E5" rx="11" ry="11" style="stroke:#181818;stroke-width:1;"/>
+            <path d="M261.8306,95.7656 L261.8306,93.6094 L269.2212,93.6094 L269.2212,95.7656 L266.7524,95.7656 L266.7524,103.8438 L269.2212,103.8438 L269.2212,106 L261.8306,106 L261.8306,103.8438 L264.2993,103.8438 L264.2993,95.7656 L261.8306,95.7656 Z "
+                  fill="#000000"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing"
+                  textLength="47.9678" x="286.4087" y="104.8467">IShape
+            </text>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="183.5" x2="404.7852" y1="116" y2="116"/>
+            <ellipse cx="193.5" cy="129.6484" fill="transparent" rx="3" ry="3" style="stroke:#038048;stroke-width:1;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="84.6904"
+                  x="202.5" y="132.9951">double Area
+            </text>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="183.5" x2="404.7852" y1="140.2969" y2="140.2969"/>
+            <ellipse cx="193.5" cy="153.9453" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="197.2852"
+                  x="202.5" y="157.292">double CalculatePerimeter()
+            </text>
+            <ellipse cx="193.5" cy="170.2422" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="183.668"
+                  x="202.5" y="173.5889">void Resize(double factor)
+            </text>
+        </g><!--reverse link IShape to Circle-->
+        <g id="link_IShape_Circle">
+            <path codeLine="28" d="M239.2606,194.5291 C220.5306,215.4091 210.3,226.82 190.18,249.25 " fill="transparent"
+                  id="IShape-backto-Circle" style="stroke:#181818;stroke-width:1;stroke-dasharray:7.0,7.0;"/>
+            <polygon fill="transparent" points="251.28,181.13,234.7943,190.5226,243.727,198.5355,251.28,181.13"
+                     style="stroke:#181818;stroke-width:1;"/>
+        </g><!--reverse link IShape to Rectangle-->
+        <g id="link_IShape_Rectangle">
+            <path codeLine="29" d="M341.5891,195.4016 C355.6391,213.6816 361.04,220.71 376.48,240.78 "
+                  fill="transparent" id="IShape-backto-Rectangle"
+                  style="stroke:#181818;stroke-width:1;stroke-dasharray:7.0,7.0;"/>
+            <polygon fill="transparent" points="330.62,181.13,336.8319,199.058,346.3463,191.7452,330.62,181.13"
+                     style="stroke:#181818;stroke-width:1;"/>
+        </g><!--SRC=[jP8z3u8m48PtVaL7Y8OO1oSNmW8RWS6HdEM49kKZRT54vR_BHq4D92nwMz_S-zvpkHQGewo08eaEiHjvJXZ4kxtj5mh5fPKbUHYaBJOAn8yog53BNMsIiZvp98v0c8akS5fpK1YWO3cs8QRrRhgMB24XIdP7KnlQ6QeKGqzZD8PHB1Bg-PI3bCHbWl8bf10ILiiLqi4zpXUznVhr8X-q8L85HRe8V6A9ocQgXopDrCeQK-m8SEkojaI_iZx3-iE1z8SuFcrRN-9BchXU]-->
+    </g>
+</svg>
