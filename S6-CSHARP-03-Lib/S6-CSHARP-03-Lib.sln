@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "S6-CSHARP-03-Lib", "S6-CSHARP-03-Lib\S6-CSHARP-03-Lib.csproj", "{08BEA0DA-B658-4B77-AEF0-D08401490612}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "S6-CSHARP-03-Web", "S6-CSHARP-03-Web\S6-CSHARP-03-Web.csproj", "{D58D54F0-B795-4011-BC04-514DF1E59858}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{08BEA0DA-B658-4B77-AEF0-D08401490612}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08BEA0DA-B658-4B77-AEF0-D08401490612}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08BEA0DA-B658-4B77-AEF0-D08401490612}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08BEA0DA-B658-4B77-AEF0-D08401490612}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D58D54F0-B795-4011-BC04-514DF1E59858}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D58D54F0-B795-4011-BC04-514DF1E59858}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D58D54F0-B795-4011-BC04-514DF1E59858}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D58D54F0-B795-4011-BC04-514DF1E59858}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
